@@ -18,7 +18,7 @@ export default function Sidebar() {
       <div className="sideBarItem">
         <span className="sideBarTitle">ABOUT ME</span>
         <img src="./hey.png" alt="" />
-        <p>Welcome to Ponder-Page! I'm Sahil, the storyteller behind these digital musings. As a Develpoer, I find joy in crafting tales that celebrate the magic of everyday life. Join me on a journey through reflections, adventures, and the beauty found in simplicity. This blog is a space where words dance and ideas unfold. Let's explore, learn, and share stories together. Your presence is not just appreciated; it's the heart of this narrative. Thanks for being here, and I can't wait to connect with fellow seekers of inspiration. Cheers to the magic of words and the stories we're yet to tell!</p>
+        <p>Welcome to My Ponder-Page! I'm Sahil, the storyteller behind these digital musings. As a Develpoer, I find joy in crafting tales that celebrate the magic of everyday life. Join me on a journey through reflections, adventures, and the beauty found in simplicity. This blog is a space where words dance and ideas unfold. Let's explore, learn, and share stories together. Your presence is not just appreciated; it's the heart of this narrative. Thanks for being here, and I can't wait to connect with fellow seekers of inspiration. Cheers to the magic of words and the stories we're yet to tell!</p>
       </div>
       <div className="sideBarItem">
         <span className="sideBarTitle">CATEGORIES</span>
