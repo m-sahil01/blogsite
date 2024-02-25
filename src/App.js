@@ -12,6 +12,8 @@ import {
   Routes, 
 } from "react-router-dom";
 import { Context } from "./context/Context.js";
+import About from "./components/about/About.jsx";
+import Contact from "./components/contact/Contact.jsx";
 
 
 function App() {
@@ -21,6 +23,12 @@ function App() {
     <NavBar /> 
       <Routes>
         <Route exact path="/" element={<Home />} />
+      </Routes>
+      <Routes>
+        <Route exact path="/about" element={<About/>}/>
+      </Routes>
+      <Routes>
+        <Route exact path="/contact" element={<Contact/>} />
       </Routes>
       <Routes>
         <Route path="/write" element={user?<Write />:<Register/>} />

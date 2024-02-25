@@ -1,0 +1,67 @@
+.contact {
+    background-image: url('https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    h1{
+        color: #333;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+  }
+  
+  .contactForm {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .contactLabel {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contactInput[type="text"],
+  .contactInput[type="email"],
+  .contactTextarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Makes sure padding does not affect overall width */
+  }
+  
+  .contactInput[type="text"]:focus,
+  .contactInput[type="email"]:focus,
+  .contactTextarea:focus {
+    outline: none;
+
+  }
+  
+  .contactButton[type="submit"] {
+    background-color: #d82c2c;
+
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contactButton[type="submit"]:hover {
+    background-color: #da0808; 
+
+  }
+  .success-message {
+    color: #67f16b; /* Green color */
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.8px;
+    font-style: 1.1rem;
+
+  }

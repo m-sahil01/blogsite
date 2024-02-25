@@ -18,6 +18,10 @@
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    hr{
+        width: 95%;
+        margin: auto;
+    }
 }
 
 .postCat{

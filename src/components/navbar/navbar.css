@@ -29,7 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+
     margin: 0px;
     padding: 0px;
 }
@@ -44,8 +44,12 @@
 .topRight{
     font-size: 20px;
     color: #444;
-    cursor: pointer;    
+    /* cursor: pointer;     */
 }
-.topSearchIcon{
-    margin-left: 25px;
-}
+.topImage {
+    cursor: pointer;
+    max-width: 50px; /* Adjust the width as needed */
+    max-height: 40px; /* Adjust the height as needed */
+    border-radius: 50%; /* Optional: creates a circular image */
+    object-fit: cover; /* Ensures the image covers the space without distorting */
+  }

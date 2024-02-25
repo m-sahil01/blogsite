@@ -23,6 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 }
 .settingsUpdateTitle{
     font-size: 30px;
@@ -76,4 +77,14 @@
     padding: 4px 0px;
     margin-top: 20px;
 
+}
+.deletePic{
+    width: 150px;
+    border-radius: 8px;
+    background-color: #666;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    letter-spacing: 0.2px;
 }
