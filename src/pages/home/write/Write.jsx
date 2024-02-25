@@ -24,13 +24,13 @@ export default function Write() {
       data.append("file", file);
       newPost.photo = filename;
       try {
-        await axios.post("/upload", data)
+        await axios.post("https://blogapi-yf21.onrender.com/api/upload", data)
       } catch (error) {
 
       }
     }
     try {
-      const res = await axios.post("/posts", newPost);
+      const res = await axios.post("https://blogapi-yf21.onrender.com/api/posts", newPost);
       window.location.replace("/post/" + res.data._id);
     } catch (error) {
       console.log(error);

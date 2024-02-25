@@ -12,7 +12,7 @@ export default function Home() {
   const {search} = useLocation();
   useEffect(()=>{
 const fetchPosts=async()=>{
-  const res = await axios.get("/posts"+search);
+  const res = await axios.get("https://blogapi-yf21.onrender.com/api/posts"+search);
   setPosts(res.data)
 } 
 fetchPosts();
