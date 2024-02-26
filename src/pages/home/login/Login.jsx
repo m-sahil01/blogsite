@@ -13,7 +13,7 @@ export default function Login() {
     e.preventDefault();
     dispatch({ type: "LOGIN_START" });
     try {
-      const res = await axios.post("/auth/login", {
+      const res = await axios.post("https://blogapi-yf21.onrender.com/api/auth/login", {
         username: userRef.current.value,
         password: passwordRef.current.value,
       });
@@ -46,7 +46,7 @@ export default function Login() {
         </button>
       </form>
       <button className="loginRegisterButton">
-        <Link className="link" to="/register">
+        <Link className="link" to="https://blogapi-yf21.onrender.com/api/register">
           Register
         </Link>
       </button>

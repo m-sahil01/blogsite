@@ -13,12 +13,12 @@ export default function Register() {
     e.preventDefault();
     setError(false);
     try {
-      const res = await axios.post("/auth/register",{
+      const res = await axios.post("https://blogapi-yf21.onrender.com/api/auth/register",{
         email,
         username,
         password,
       });
-      res.data&& window.location.replace("/login");
+      res.data&& window.location.replace("https://blogapi-yf21.onrender.com/api/login");
     } catch (error) {
       console.log(error );
       setError(true);
@@ -40,7 +40,7 @@ export default function Register() {
         <button className="registerButton" type="submit">Register new user</button>
       </form>
       <button className="registerLoginButton">
-        <Link className="link"to="/login">
+        <Link className="link"to="https://blogapi-yf21.onrender.com/api/login">
           Login
         </Link>
       </button>
