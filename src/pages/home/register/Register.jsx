@@ -18,7 +18,7 @@ export default function Register() {
         username,
         password,
       });
-      res.data&& window.location.replace("https://blogapi-yf21.onrender.com/api/login");
+      res.data&& window.location.replace("/login");
     } catch (error) {
       console.log(error );
       setError(true);
@@ -40,7 +40,7 @@ export default function Register() {
         <button className="registerButton" type="submit">Register new user</button>
       </form>
       <button className="registerLoginButton">
-        <Link className="link"to="https://blogapi-yf21.onrender.com/api/login">
+        <Link className="link"to="/login">
           Login
         </Link>
       </button>
