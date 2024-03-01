@@ -13,7 +13,7 @@ export default function Register() {
     e.preventDefault();
     setError(false);
     try {
-      const res = await axios.post("https://blogapi-yf21.onrender.com/api/auth/register",{
+      const res = await axios.post("https://blogapi-yf21.onrender.com/api/routes/auth/register",{
         email,
         username,
         password,
